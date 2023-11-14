@@ -1,10 +1,15 @@
 import React from "react";
 import "./Home.scss";
+import sunsetImg from "../../static/images/sunset.jpg";
+import fitnessImg from "../../static/images/fitness.jpg";
+import womanImg from "../../static/images/woman.jpg";
+import meatImg from "../../static/images/meat.jpg";
 
 const Home = (props) => {
   return (
     <div className="home">
       <div className="home-banner">
+        <img className="home-img" src={sunsetImg} alt="sunset image" />
         <p className="home-blurb">GET IN THE BEST SHAPE OF YOUR LIFE</p>
       </div>
       <div className="process">
