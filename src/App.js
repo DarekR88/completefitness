@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./Global.scss";
+import Toolbar from "./components/Toolbar/Toolbar";
+import Home from "./components/Home/Home";
 
 const App = () => {
 
@@ -8,20 +10,21 @@ const App = () => {
   const [backdropShow, setBackdropShow] = useState(false);
   
   const toggleBackdrop = () => {
-    setBackdropShow(!backdropShow)
-  }
+    setBackdropShow(!backdropShow);
+  };
 
   const toggleToolbar = () => {
-    setToolbarShow(!toolbarShow)
-  }
+    setToolbarShow(!toolbarShow);
+  };
 
   const toggleSideDrawer = () => {
-    setSideDrawerOpen(!sideDrawerOpen)
-  }
+    setSideDrawerOpen(!sideDrawerOpen);
+  };
 
   return (
     <div className="App">
-      <p>Hello World!</p>
+      <Toolbar />
+      <Home />
     </div>
   );
 };
