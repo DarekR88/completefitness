@@ -26,7 +26,7 @@ const Contact = (props) => {
   };
 
   return (
-    <div className="contact">
+    <div className="contact-wrapper">
       <form className="emailForm" ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input className="Contact-input" type="text" name="user_name" />

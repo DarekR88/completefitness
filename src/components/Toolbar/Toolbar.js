@@ -6,12 +6,12 @@ import "./Toolbar.scss";
 const Toolbar = (props) => {
 
   return (
-    <header className="toolbar">
+    <div className="toolbar">
   
       <div className="toolbar-logo">
         Ignition Fitness
       </div>
-    </header>
+    </div>
   );
 };
 
