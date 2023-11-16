@@ -48,3 +48,26 @@
     }
   }
 }
+
+@media (min-width: $lg) {
+  .contact-wrapper {
+    min-height: 45vh;
+    columns: 2;
+    .contact-blurb {
+      max-width: 45vw;
+    }
+    .contact-form {
+      text-align: center;
+      .contact-label {
+        font-size: $font-m;
+        color: $font-secondary;
+      }
+      .contact-input {
+        width: 45vw;
+        height: 36px;
+        margin: auto;
+        margin-top: 10px;
+      }
+    }
+  }
+}
