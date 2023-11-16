@@ -3,6 +3,7 @@ import "./Global.scss";
 import Toolbar from "./components/Toolbar/Toolbar";
 import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
 
@@ -27,6 +28,7 @@ const App = () => {
       <Toolbar />
       <Home />
       <Contact />
+      <Footer />
     </div>
   );
 };

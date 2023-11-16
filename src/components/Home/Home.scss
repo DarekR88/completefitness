@@ -5,7 +5,7 @@
   width: 100%;
   min-height: 100vh;
   background: $background-dark;
-  border: 1px solid red;
+  // border: 1px solid red;
   .home-img {
     width: 100vw;
     max-height: 100vh;
@@ -83,8 +83,13 @@
         font-size: $font-xl;
         color: $font-secondary;
       }
+      .intro {
+        font-size: $font-xl;
+      }
     }
     .process {
+      max-width: 1000px;
+      margin: auto;
       margin-top: 20px;
       columns: 3;
       .step {

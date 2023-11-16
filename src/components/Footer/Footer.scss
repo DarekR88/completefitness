@@ -1,0 +1,18 @@
+@import "../../Global.scss";
+
+.footer {
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: $font-secondary;
+  background: $background-dark;
+  height: 80px;
+  // z-index: 1;
+  .copy-right {
+    font-size: 10px;
+    margin-right: 25px;
+  }
+}
