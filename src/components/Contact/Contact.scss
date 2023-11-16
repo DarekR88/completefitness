@@ -11,9 +11,23 @@
     width: fit-content;
   }
   .contact-form {
+    text-align: center;
     .contact-label {
       font-size: $font-m;
       color: $font-secondary;
+    }
+    .contact-input {
+      width: 90vw;
+      height: 36px;
+      margin: auto;
+    }
+    input::placeholder {
+      color: red;
+      font-size: 1.2em;
+      font-style: italic;
+    }
+    .contact-input.message {
+      height: 100px;
     }
   }
 }
