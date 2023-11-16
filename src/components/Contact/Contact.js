@@ -28,6 +28,7 @@ const Contact = (props) => {
   return (
     <div className="contact-wrapper">
       <div className="contact-title">Contact</div>
+      <p className="contact-blurb">Get in touch and schedule a free evaluation today</p>
       <p className="contact-blurb">Operators are standing by 24/7</p>
       <p className="contact-blurb">Call Now!</p>
       <p className="contact-blurb">(420) 420-6969</p>
@@ -36,7 +37,7 @@ const Contact = (props) => {
       <p className="contact-blurb long">
         Taking the first step towards a better you can be very difficult and we
         are here to facilitate your transformation journey in a way that
-        maximizes your results.
+        maximizes your results. Evaluations are free with no obligation.
       </p>
       <form className="contact-form" id="form" onSubmit={sendEmail}>
         <div class="field">
