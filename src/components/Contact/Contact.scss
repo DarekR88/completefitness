@@ -1,6 +1,19 @@
 @import "../../Global.scss";
 
 .contact-wrapper {
+  background-color: $background-dark;
   min-height: 100vh;
   border: 1px red solid;
+  .contact-title {
+    margin: auto;
+    font-size: $font-l;
+    color: $font-secondary;
+    width: fit-content;
+  }
+  .contact-form {
+    .contact-label {
+      font-size: $font-m;
+      color: $font-secondary;
+    }
+  }
 }

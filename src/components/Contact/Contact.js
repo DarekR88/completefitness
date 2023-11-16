@@ -28,21 +28,21 @@ const Contact = (props) => {
   return (
     <div className="contact-wrapper">
       <div className="contact-title">Contact</div>
-      <form id="form" onSubmit={sendEmail}>
+      <form className="contact-form" id="form" onSubmit={sendEmail}>
         <div class="field">
-          <label for="to_name">Name</label>
-          <input type="text" name="to_name" id="to_name" />
+          <label className="contact-label" for="to_name">Name</label>
+          <input className="contact-input" type="text" name="to_name" id="to_name" />
         </div>
         <div class="field">
-          <label for="from_name">Phone</label>
+          <label className="contact-label" for="from_name">Phone</label>
           <input type="text" name="from_name" id="from_name" />
         </div>
         <div class="field">
-          <label for="reply_to">Email</label>
+          <label className="contact-label" for="reply_to">Email</label>
           <input type="text" name="reply_to" id="reply_to" />
         </div>
         <div class="field">
-          <label for="message">message</label>
+          <label className="contact-label" for="message">message</label>
           <input type="text" name="message" id="message" />
         </div>
 
