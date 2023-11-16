@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import "./Global.scss";
 import Toolbar from "./components/Toolbar/Toolbar";
 import Home from "./components/Home/Home";
+import Contact from "./components/Contact/Contact";
 
 const App = () => {
 
@@ -25,6 +26,7 @@ const App = () => {
     <div className="App">
       <Toolbar />
       <Home />
+      <Contact />
     </div>
   );
 };
